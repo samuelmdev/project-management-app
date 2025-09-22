@@ -7,6 +7,7 @@ import { createClient } from './lib/supabase/client'
 import { LocaleContext } from './lib/i18n/locale-provider'
 import { AnimatePresence, motion } from 'framer-motion'
 import { ArrowRight, User, LogOut, Menu, X } from 'lucide-react'
+import Footer from './components/Footer'
 
 export default function Home() {
   const t = useContext(LocaleContext)
@@ -310,6 +311,9 @@ export default function Home() {
           </li>
         </ol>
       </section>
+
+      {/* Footer */}
+      <Footer className="mt-auto" />
     </main>
   )
 }

@@ -37,11 +37,11 @@ export default function Footer({ className = '' }: FooterProps) {
 
   return (
     <>
-      <footer className={`bg-gray-900/80 backdrop-blur-sm border-t border-gray-700 py-6 ${className}`}>
+      <footer className={`w-full bg-gray-900/80 backdrop-blur-sm border-t border-gray-700 py-6 ${className}`}>
         <div className="max-w-6xl mx-auto px-8 flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Left side - App info */}
           <div className="flex flex-col md:flex-row items-center gap-2 text-gray-400 text-sm">
-            <span>© 2024 Project Manager</span>
+            <span>© {new Date().getFullYear()} Project Manager</span>
             <span className="hidden md:inline">•</span>
             <span>Built with Next.js & Supabase</span>
           </div>

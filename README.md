@@ -67,46 +67,6 @@ A modern, collaborative project management application built with Next.js 15, Su
 - **PostCSS** - CSS processing
 - **Autoprefixer** - CSS vendor prefixes
 
-## 📦 Installation
-
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn
-- Supabase account
-
-### Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd project-manager
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Environment setup**
-   Create a `.env.local` file in the root directory:
-   ```env
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-   NEXT_PUBLIC_SITE_URL=http://localhost:3000
-   ```
-
-4. **Database setup**
-   - Create a new Supabase project
-   - Set up the required database tables and relationships
-   - Enable Row Level Security on all tables
-
-5. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-
-6. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
 
 ## 🏗️ Architecture
 
@@ -179,29 +139,6 @@ A modern, collaborative project management application built with Next.js 15, Su
 4. **Monitor Activity** - View activity logs and team progress
 5. **Real-time Updates** - See changes as they happen
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-1. **Connect Repository** - Link your GitHub repository to Vercel
-2. **Environment Variables** - Add your Supabase credentials
-3. **Deploy** - Automatic deployment on every push
-
-### Other Platforms
-
-The app can be deployed to any platform that supports Next.js:
-- **Netlify**
-- **Railway**
-- **DigitalOcean App Platform**
-- **AWS Amplify**
-
-### Environment Variables for Production
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_production_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_production_supabase_anon_key
-NEXT_PUBLIC_SITE_URL=https://your-domain.com
-```
 
 ## 🔧 Development
 

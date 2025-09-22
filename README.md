@@ -222,4 +222,4 @@ For support and questions:
 
 ---
 
-Built using Next.js, Supabase, and Tailwind CSS
+Built using Next.js, Supabase, and Tailwind CSS# Updated README for GitHub cache refresh

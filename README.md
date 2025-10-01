@@ -219,7 +219,7 @@ For support and questions:
 - **API access** - RESTful API for integrations
 - **Templates** - Project and workflow templates
 - **Advanced permissions** - More granular access control
-
+- **Additional integration** - By requests for essential integrations
 ---
 
 Built using Next.js, Supabase, and Tailwind CSS
